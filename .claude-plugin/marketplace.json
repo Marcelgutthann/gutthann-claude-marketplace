@@ -1,0 +1,110 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gutthann-claude-marketplace",
+  "description": "Claude Code Plugins fuer Architektur- und Planungsbueros: HOAI-konforme LPH-Workflows pro Leistungsphase (1-8), Projekt-Skillboard mit Dashboard und Konsequenzen-Tool, Projektsteuerung. Entwickelt von Gutthann HIW Architekten GmbH aus echter Projektpraxis.",
+  "owner": {
+    "name": "Gutthann HIW Architekten GmbH",
+    "email": "info@gutthann-hiw-architekten.de"
+  },
+  "plugins": [
+    {
+      "name": "lph-1",
+      "description": "LPH 1 Grundlagenermittlung nach HOAI Paragraph 33",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-lph-1"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-lph-1"
+    },
+    {
+      "name": "lph-2",
+      "description": "LPH 2 Vorentwurfsplanung nach HOAI Paragraph 33",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-lph-2"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-lph-2"
+    },
+    {
+      "name": "lph-3",
+      "description": "LPH 3 Entwurfsplanung (System- und Integrationsplanung)",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-lph-3"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-lph-3"
+    },
+    {
+      "name": "lph-4",
+      "description": "LPH 4 Genehmigungsplanung mit Bauantragsunterlagen-Struktur",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-lph-4"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-lph-4"
+    },
+    {
+      "name": "lph-5",
+      "description": "LPH 5 Ausfuehrungsplanung mit gewerkbezogener Detailstruktur",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-lph-5"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-lph-5"
+    },
+    {
+      "name": "lph-6",
+      "description": "LPH 6 Vorbereitung der Vergabe mit Leistungsverzeichnis-Struktur",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-lph-6"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-lph-6"
+    },
+    {
+      "name": "lph-7",
+      "description": "LPH 7 Mitwirkung bei der Vergabe mit Vergabesummen-Auswertung",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-lph-7"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-lph-7"
+    },
+    {
+      "name": "lph-8",
+      "description": "LPH 8 Objektueberwachung inkl. Rechtsgrundlagen, Zahlungen, Abnahmen, Gewaehrleistungsfristen",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-lph-8"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-lph-8"
+    },
+    {
+      "name": "skillboard",
+      "description": "4-Befehle-Plugin fuer Architekturprojekte: /init-projekt legt sofort die komplette Claude/-Ordnerstruktur an. /projekt-historie pflegt zentrale Wissensbasis. /dashboard erzeugt monochromes HTML-Dashboard. /fachplaner-analyse schreibt aus Sicht jedes Fachplaners kurze Statusbriefe (Multi-Persona). Alle Outputs landen ausschliesslich in <Projekt>/Claude/ - keine Verschmutzung der Projekt-Struktur. Optionale Auto-Routinen (Daily Sync, Hooks, Monday Notification) via routinen_tools/setup-routines.bat.",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-skillboard"},
+      "version": "4.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-skillboard"
+    },
+    {
+      "name": "vgv",
+      "description": "VGV-Analyse Plugin - automatische Vertragsrisiko- und Vergabe-Bewertung fuer Architektur- und Planungsbueros bei oeffentlichen Vergabeverfahren. Universell fuer jedes Buero in Deutschland mit Rollen-Profilen (Architekt, Generalplaner, Bauingenieur). Erzeugt Standalone-HTML mit Risiko-Ampel, Verhandlungsempfehlungen und PDF-Export. Output: Claude/VGV-Analyse/VGV_Analyse_YYYY-MM-DD.html",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-vgv"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-vgv"
+    },
+    {
+      "name": "projektsteuerung-bau",
+      "description": "Projektsteuerungs-Skill fuer Bauprojekte mit standardisierten Aufgaben und Workflows",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-projektsteuerung"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-projektsteuerung"
+    }
+  ]
+}
