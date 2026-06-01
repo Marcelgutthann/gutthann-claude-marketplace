@@ -22,6 +22,8 @@ Jede LPH ist ein **eigenes Plugin** mit eigener Versionierung. Kunden installier
 | **lph-8** | `/lph8` | v1.0.0 | LPH 8 Objektueberwachung |
 | **skillboard** | `/projekt-historie` `/dashboard` `/fachplaner-analyse` | v3.1.0 | Wissensbasis pflegen + monochromes Dashboard + Multi-Persona-Fachplaner-Analyse |
 | **projektsteuerung-bau** | (Skill) | v1.0.0 | Projektsteuerung Bauprojekte |
+| **vgv** | `/vgv` | v1.0.0 | VGV-Analyse: Vertragsrisiko- und Vergabe-Bewertung bei oeffentlichen Verfahren |
+| **nachtrag-skill** | `/nachtrag` (+ Auto-Skill) | v1.0.0 | Rechtssichere Nachtraege zu Architektenvertraegen (HAV-KOM / AVB / ZVB / HOAI) |
 
 ---
 
@@ -67,6 +69,8 @@ Jedes Plugin lebt in einem eigenen Repository - das ermoeglicht unabhaengige Ver
 - [gutthann-lph-8](https://github.com/Marcelgutthann/gutthann-lph-8)
 - [gutthann-skillboard](https://github.com/Marcelgutthann/gutthann-skillboard)
 - [gutthann-projektsteuerung](https://github.com/Marcelgutthann/gutthann-projektsteuerung)
+- [gutthann-vgv](https://github.com/Marcelgutthann/gutthann-vgv)
+- [gutthann-nachtrag](https://github.com/Marcelgutthann/gutthann-nachtrag)
 
 ---
 
