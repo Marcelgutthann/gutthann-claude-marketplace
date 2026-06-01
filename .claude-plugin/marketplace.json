@@ -105,6 +105,15 @@
       "source": {"source": "github", "repo": "Marcelgutthann/gutthann-projektsteuerung"},
       "version": "1.0.0",
       "homepage": "https://github.com/Marcelgutthann/gutthann-projektsteuerung"
+    },
+    {
+      "name": "nachtrag-skill",
+      "description": "Strukturierte Erstellung rechtssicherer Nachtraege zu Architektenvertraegen (HAV-KOM / AVB / ZVB / HOAI). Befehl /nachtrag + Auto-Skill: Vertragsscan, Pflicht-Abfrage, juristische Pruefung der Begruendung und Word-Ausgabe mit Briefkopf-Logo.",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-nachtrag"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-nachtrag"
     }
   ]
 }
