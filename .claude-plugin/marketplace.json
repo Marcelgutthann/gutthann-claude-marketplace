@@ -114,6 +114,15 @@
       "source": {"source": "github", "repo": "Marcelgutthann/gutthann-nachtrag"},
       "version": "1.0.0",
       "homepage": "https://github.com/Marcelgutthann/gutthann-nachtrag"
+    },
+    {
+      "name": "bki",
+      "description": "BKI-Baukosten nachschlagen: Positionspreise (EUR/Einheit, brutto/netto) und Gebaeude-Kostenkennwerte (EUR/m2 BGF bzw. BRI nach DIN 276) aus den lokal lizenzierten BKI-Buechern Altbau 2025 - immer mit exakter Seitenzahl zum Nachschlagen im Original-PDF, plus Mengen-Hochrechnung und grobe Kostenschaetzung. Die PDFs bleiben lokal beim lizenzierten Nutzer.",
+      "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
+      "category": "productivity",
+      "source": {"source": "github", "repo": "Marcelgutthann/gutthann-bki"},
+      "version": "1.0.0",
+      "homepage": "https://github.com/Marcelgutthann/gutthann-bki"
     }
   ]
 }
