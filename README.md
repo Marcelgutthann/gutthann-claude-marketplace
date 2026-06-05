@@ -24,6 +24,7 @@ Jede LPH ist ein **eigenes Plugin** mit eigener Versionierung. Kunden installier
 | **projektsteuerung-bau** | (Skill) | v1.0.0 | Projektsteuerung Bauprojekte |
 | **vgv** | `/vgv` | v1.0.0 | VGV-Analyse: Vertragsrisiko- und Vergabe-Bewertung bei oeffentlichen Verfahren |
 | **nachtrag-skill** | `/nachtrag` (+ Auto-Skill) | v1.0.0 | Rechtssichere Nachtraege zu Architektenvertraegen (HAV-KOM / AVB / ZVB / HOAI) |
+| **bki** | `/bki` | v1.0.0 | BKI-Baukosten nachschlagen: Positionspreise und Gebaeude-Kostenkennwerte (DIN 276) mit exakter Seitenzahl - lizenzierte PDFs bleiben lokal |
 
 ---
 
@@ -71,6 +72,7 @@ Jedes Plugin lebt in einem eigenen Repository - das ermoeglicht unabhaengige Ver
 - [gutthann-projektsteuerung](https://github.com/Marcelgutthann/gutthann-projektsteuerung)
 - [gutthann-vgv](https://github.com/Marcelgutthann/gutthann-vgv)
 - [gutthann-nachtrag](https://github.com/Marcelgutthann/gutthann-nachtrag)
+- [gutthann-bki](https://github.com/Marcelgutthann/gutthann-bki)
 
 ---
 
