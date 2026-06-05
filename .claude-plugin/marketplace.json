@@ -121,7 +121,7 @@
       "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
       "category": "productivity",
       "source": {"source": "github", "repo": "Marcelgutthann/gutthann-bki"},
-      "version": "1.0.0",
+      "version": "1.1.0",
       "homepage": "https://github.com/Marcelgutthann/gutthann-bki"
     }
   ]
