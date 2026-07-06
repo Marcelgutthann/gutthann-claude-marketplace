@@ -90,11 +90,11 @@
     },
     {
       "name": "vgv",
-      "description": "VGV-Analyse Plugin - automatische Vertragsrisiko- und Vergabe-Bewertung fuer Architektur- und Planungsbueros bei oeffentlichen Vergabeverfahren. Universell fuer jedes Buero in Deutschland mit Rollen-Profilen (Architekt, Generalplaner, Bauingenieur). Erzeugt Standalone-HTML mit Risiko-Ampel, Verhandlungsempfehlungen und PDF-Export. Output: Claude/VGV-Analyse/VGV_Analyse_YYYY-MM-DD.html",
+      "description": "VGV-Analyse Plugin - automatische Vertragsrisiko- und Vergabe-Bewertung fuer Architektur- und Planungsbueros bei oeffentlichen Vergabeverfahren. Universell fuer jedes Buero in Deutschland mit Rollen-Profilen (Architekt, Generalplaner, Bauingenieur). Erzeugt Standalone-HTML mit Risiko-Ampel, Verhandlungsempfehlungen und PDF-Export. Ab v1.1: optionales Referenz-Matching gegen eine buero-weite Referenzdatenbank (schlaegt passende eigene Projekte als Referenzen inkl. Zuschnitt vor). Output: Claude/VGV-Analyse/VGV_Analyse_YYYY-MM-DD.html",
       "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
       "category": "productivity",
       "source": {"source": "github", "repo": "Marcelgutthann/gutthann-vgv"},
-      "version": "1.0.0",
+      "version": "1.1.0",
       "homepage": "https://github.com/Marcelgutthann/gutthann-vgv"
     },
     {

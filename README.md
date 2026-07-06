@@ -22,7 +22,7 @@ Jede LPH ist ein **eigenes Plugin** mit eigener Versionierung. Kunden installier
 | **lph-8** | `/lph8` | v1.0.0 | LPH 8 Objektueberwachung |
 | **skillboard** | `/projekt-historie` `/dashboard` `/fachplaner-analyse` | v3.1.0 | Wissensbasis pflegen + monochromes Dashboard + Multi-Persona-Fachplaner-Analyse |
 | **projektsteuerung-bau** | (Skill) | v1.0.0 | Projektsteuerung Bauprojekte |
-| **vgv** | `/vgv` | v1.0.0 | VGV-Analyse: Vertragsrisiko- und Vergabe-Bewertung bei oeffentlichen Verfahren |
+| **vgv** | `/vgv` | v1.1.0 | VGV-Analyse: Vertragsrisiko- und Vergabe-Bewertung bei oeffentlichen Verfahren, ab v1.1 mit Referenz-Matching aus der Buero-Referenzdatenbank |
 | **nachtrag-skill** | `/nachtrag` (+ Auto-Skill) | v1.0.0 | Rechtssichere Nachtraege zu Architektenvertraegen (HAV-KOM / AVB / ZVB / HOAI) |
 | **bki** | `/bki` | v1.0.0 | BKI-Baukosten nachschlagen: Positionspreise und Gebaeude-Kostenkennwerte (DIN 276) mit exakter Seitenzahl - lizenzierte PDFs bleiben lokal |
 
