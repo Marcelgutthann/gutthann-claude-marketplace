@@ -90,11 +90,11 @@
     },
     {
       "name": "vgv",
-      "description": "VGV-Analyse Plugin - automatische Vertragsrisiko- und Vergabe-Bewertung fuer Architektur- und Planungsbueros bei oeffentlichen Vergabeverfahren. Universell fuer jedes Buero in Deutschland mit Rollen-Profilen (Architekt, Generalplaner, Bauingenieur). Erzeugt Standalone-HTML mit Risiko-Ampel, Verhandlungsempfehlungen und PDF-Export. Ab v1.1: optionales Referenz-Matching gegen eine buero-weite Referenzdatenbank (schlaegt passende eigene Projekte als Referenzen inkl. Zuschnitt vor) und separate Termin-Uebersicht. Ab v1.2: Bewerberprofile (Suchprofile) je Konstellation - GHIW-Einzelbewerbung, AIP Generalplaner GmbH (Eignungsleihe-Validator) oder ARGE/Bewerbergemeinschaft, mit Abfrage der Konstellation je Projekt. Output: Ordner '5 Analyse' mit VGV_Analyse, Referenz_Analyse und TERMINE.html",
+      "description": "VGV-Analyse Plugin - automatische Vertragsrisiko- und Vergabe-Bewertung fuer Architektur- und Planungsbueros bei oeffentlichen Vergabeverfahren. Universell fuer jedes Buero in Deutschland mit Rollen-Profilen (Architekt, Generalplaner, Bauingenieur). Erzeugt Standalone-HTML mit Risiko-Ampel, Verhandlungsempfehlungen und PDF-Export. Ab v1.1: optionales Referenz-Matching gegen eine buero-weite Referenzdatenbank (schlaegt passende eigene Projekte als Referenzen inkl. Zuschnitt vor) und separate Termin-Uebersicht. Ab v1.2: Bewerberprofile (Suchprofile) je Konstellation - GHIW-Einzelbewerbung, AIP Generalplaner GmbH (Eignungsleihe-Validator) oder ARGE/Bewerbergemeinschaft, mit Abfrage der Konstellation je Projekt. Ab v1.2.2: ARGE-Referenzen gelten als vollwertige eigene Referenzen - keine Rueckfragen mehr im Referenz-Matching wegen ARGE-Konstellation oder Leistungsanteil. Output: Ordner '5 Analyse' mit VGV_Analyse, Referenz_Analyse und TERMINE.html",
       "author": {"name": "Marcel Gutthann", "email": "info@gutthann-hiw-architekten.de"},
       "category": "productivity",
       "source": {"source": "github", "repo": "Marcelgutthann/gutthann-vgv"},
-      "version": "1.2.1",
+      "version": "1.2.2",
       "homepage": "https://github.com/Marcelgutthann/gutthann-vgv"
     },
     {
